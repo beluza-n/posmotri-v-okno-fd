@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -15,7 +16,14 @@ html {
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  background-color: #1b1919;
+  /* background-color: #1b1919; */
+  background-color: #bbffd0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 133px 30px;
+
 }
 
 h1,
@@ -36,6 +44,109 @@ ul,
 ol {
   list-style: none;
 }
+
+
+.content {
+  width: 100%;
+  display: flex;
+  background-color: #ff8181;
+  gap: 30px;
+}
+
+.result {
+  width: 711px;
+  height: 456px;
+  align-self: flex-end;
+}
+
+.result__video {
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-form__submit-button {
+  padding: 6px 74px;
+}
+
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  width: 399px;
+  height: 534px;
+  gap: 20px;
+  background-color: aquamarine;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  text-transform: uppercase;
+  line-height: 94%;
+  align-self: flex-start;
+  margin-top: 3px;
+} 
+
+.content__accent {
+  color: #545050;
+}
+
+
+.content__list-container {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  gap: 30px;
+}
+
+/* Оформление карточек предпросмотра слева */
+
+.content__card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content__video-card-description-container {
+  line-height: 1.2;
+}
+
+.content__video-card-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  /* font-weight: 400;
+  font-size: 18px; */
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+}
+
+
+
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
