@@ -55,6 +55,7 @@ ol {
   white-space: nowrap;
 }
 
+/* ОБЩИЕ СТИЛИ КНОПОК */
 .button {
   padding: 5px 20px;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -67,6 +68,25 @@ ol {
   border-radius: 0;
 }
 
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+  text-decoration: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+/* ВИДЕО */
 .content {
   width: 100%;
   display: flex;
