@@ -146,6 +146,19 @@ ol {
   color: rgb(255 255 255 / 0.7);
 }
 
+.search-form__textfield:focus,
+.search-form__textfield:focus-visible {
+  outline: none;
+}
+
+.search-form__label {
+  border: 1px solid transparent;
+}
+
+.search-form__label:has(.search-form__textfield:focus-visible) {
+  border-color: #fff;
+}
+
 .search-form__submit-button {
   padding: 5px 72px;
 }
