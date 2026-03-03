@@ -59,6 +59,16 @@ ol {
   outline: 1px solid #fff;
 }
 
+a,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="image"],
+label {
+  cursor: pointer;
+}
+
 /* ОБЩИЕ СТИЛИ КНОПОК */
 .button {
   padding: 5px 20px;
@@ -113,6 +123,15 @@ ol {
   width: 100%;
   aspect-ratio: 1.85 / 1;
   object-fit: cover;
+  object-position: center;
+}
+
+.result__video-container {
+  position: relative;
+}
+
+.content__list-container {
+  position: relative;
 }
 
 /* ОФОРМЛЕНИЕ ПОЛЯ ВВОДА ДЛЯ ПОИСКА */
@@ -347,6 +366,7 @@ ol {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
