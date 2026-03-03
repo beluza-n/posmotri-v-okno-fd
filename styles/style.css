@@ -14,16 +14,14 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  /* background-color: #bbffd0; */
 
   display: flex;
   justify-content: center;
   align-items: flex-start;
   padding: 133px 30px;
-
 }
 
 h1,
@@ -72,7 +70,7 @@ label {
 /* ОБЩИЕ СТИЛИ КНОПОК */
 .button {
   padding: 5px 20px;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
@@ -118,7 +116,6 @@ label {
   gap: 15px;
 }
 
-
 .result__video {
   width: 100%;
   aspect-ratio: 1.85 / 1;
@@ -141,8 +138,7 @@ label {
   justify-items: start;
   align-items: end;
 
-
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
@@ -158,7 +154,6 @@ label {
   font: inherit;
   line-height: 1.3;
 }
-
 
 .search-form__textfield {
   width: 225px;
@@ -243,19 +238,18 @@ label {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   text-transform: uppercase;
   line-height: 94%;
   align-self: flex-start;
   margin-top: 3px;
-} 
+}
 
 .content__accent {
   color: #545050;
 }
-
 
 .content__list-container {
   width: 100%;
@@ -273,11 +267,10 @@ label {
 .content__list {
   display: flex;
   flex-direction: column;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   gap: 30px;
   /* min-width: 0; */
 }
-
 
 .content__list-item {
   padding: 1px 3px;
@@ -289,7 +282,6 @@ label {
   width: 100%;
   color: inherit;
   text-decoration: none;
-  /* background-color: aquamarine; */
 }
 
 .content__card-link_current {
@@ -310,25 +302,23 @@ label {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-  /* outline-offset: 1px; */
 }
-
 
 .content__video-card-description-container {
   /* flex: 1 1 0; */
   /* min-width обязательно!!! */
-  height: 103px;       
+  height: 103px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
-  min-width: 0; 
+  justify-content: flex-start;
+  min-width: 0;
   /* flex: 1 1 0; */
   line-height: 1.2;
 }
 
 .content__video-card-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -340,17 +330,13 @@ label {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  
-  /* flex: 1 1 0;
-  min-height: 0; */
+  font-family: "Fira Sans Condensed", sans-serif;
+
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 
-  /* font-weight: 400;
-  font-size: 18px; */
 }
 
 .content__video-card {
@@ -373,8 +359,6 @@ label {
   width: 100%;
 }
 
-
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
@@ -385,5 +369,5 @@ label {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
