@@ -7,10 +7,10 @@
 
 html {
   block-size: 100%;
+  min-height: 100vh;
 }
 
 .page {
-  inline-size: 1200px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -21,7 +21,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 133px 30px;
+  min-height: 100vh;
 }
 
 h1,
@@ -101,9 +101,10 @@ label {
 /* ВИДЕО */
 .content {
   width: 100%;
+  max-width: 1200px;
   display: flex;
-  /* background-color: #ff8181; */
   gap: 30px;
+  padding: 133px 30px;
 }
 
 .result {
